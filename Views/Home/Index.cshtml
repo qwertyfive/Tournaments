@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div class="wrapper">
+        <button type="button" class="scroll_down" id="scroll_down"><div style="position:center; font-size:400%; font-family:Magneto; opacity:0.7">WELCOME</div></button>
+        <div class="cubback">
+            <div class="cubmousearea">
+                <div class="cubcontainer">
+                    <div class="cub">
+                        <div class="side front">
+                            <button class="healp" onclick="location.href = '@Url.Action("Index", "Games")'">Games</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cubcontainer">
+                    <div class="cub">
+                        <div class="side front">
+                            <button class="healp" onclick="location.href = '@Url.Action("Index", "Sponsors")'">Sponsors</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cubcontainer">
+                    <div class="cub">
+                        <div class="side front">
+                            <button class="healp" onclick="location.href = '@Url.Action("Index", "Tournaments")'">Tournaments</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
